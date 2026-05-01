@@ -58,5 +58,9 @@ public abstract class Veiculo{
         this.numeroPassageiros = numeroPassageiros;
         this.opcionais = opcionais;
     }
+    // Método genérico
+    public void exibirDados() {
+        System.out.println("Placa: " + placa + " | Modelo: " + modelo + " | Marca: " + marca + " | Ano: " + anoModelo);
+    }
 }
 
