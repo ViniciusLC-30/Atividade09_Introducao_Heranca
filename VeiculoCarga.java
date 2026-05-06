@@ -1,6 +1,7 @@
 public class VeiculoCarga extends Veiculo {
 
     // Características específicas de veículos de carga
+    private double capacidadeCargaKg;
     private String tipoCarga; // Ex: perecível, não perecível, perigosa, etc.
     private boolean possuiRefrigeracao;
 
@@ -8,10 +9,10 @@ public class VeiculoCarga extends Veiculo {
     public VeiculoCarga(String placa, String marca, String modelo, int anoModelo, int anoFabricacao,
                         String chassi, String renavam, String procedencia, double capacidadeMaxkg, double altura,
                         double largura, double profundidade, String corExterna, String corInterna,
-                        String tipoCombustível, String motor, double quilometragem, double consumoMedio,
+                        String tipoCombustivel, String motor, double quilometragem, double consumoMedio,
                         int numeroPortas, int numeroPassageiros, String opcionais,
                         double capacidadeCargaKg, String tipoCarga, boolean possuiRefrigeracao) {
-        super("carga", placa, marca, modelo, anoModelo, anoFabricacao, chassi, renavam,procedencia, capacidadeMaxkg, altura, largura, profundidade, corExterna, corInterna, tipoCombustível, motor, quilometragem, consumoMedio, numeroPortas,
+        super("carga", placa, marca, modelo, anoModelo, anoFabricacao, chassi, renavam, procedencia, capacidadeMaxkg, altura, largura, profundidade, corExterna, corInterna, tipoCombustivel, motor, quilometragem, consumoMedio, numeroPortas,
               numeroPassageiros, opcionais);
         this.capacidadeCargaKg = capacidadeCargaKg;
         this.tipoCarga = tipoCarga;

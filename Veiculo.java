@@ -21,7 +21,7 @@ public abstract class Veiculo{
     // Caracteristicas do Veículo
     protected String corExterna;
     protected String corInterna;
-    protected String tipoCombustível;
+    protected String tipoCombustivel;
     protected String motor;
     protected double quilometragem;
     protected double consumoMedio;
@@ -29,10 +29,10 @@ public abstract class Veiculo{
     protected int numeroPassageiros;
     protected String opcionais;
 
-    //Construtor
+    // Construtor
     public Veiculo(String especie, String placa, String marca, String modelo, int anoModelo, int anoFabricacao,
                     String chassi, String renavam, String procedencia, double capacidadeMaxkg, double altura,
-                    double largura, double profundidade, String corExterna, String corInterna, String tipoCombustível,
+                    double largura, double profundidade, String corExterna, String corInterna, String tipoCombustivel,
                     String motor, double quilometragem, double consumoMedio, int numeroPortas,
                     int numeroPassageiros, String opcionais) {
         this.especie = especie;
@@ -50,7 +50,7 @@ public abstract class Veiculo{
         this.profundidade = profundidade;
         this.corExterna = corExterna;
         this.corInterna = corInterna;
-        this.tipoCombustível = tipoCombustível;
+        this.tipoCombustivel = tipoCombustivel;
         this.motor = motor;
         this.quilometragem = quilometragem;
         this.consumoMedio = consumoMedio;
