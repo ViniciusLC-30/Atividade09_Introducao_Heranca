@@ -1,7 +1,5 @@
 public class VeiculoPassageiro extends Veiculo {
   
-    private int numeroPassageiros;
-
     // Construtor
     public VeiculoPassageiro(String placa, String marca, String modelo, int anoModelo, int anoFabricacao, String chassi, String renavam, String procedencia, double capacidadeMaxkg, double altura, double largura, double profundidade, String corExterna, String corInterna, String tipoCombustível, String motor, double quilometragem, double consumoMedio, int numeroPortas, int numeroPassageiros, String opcionais) {
 

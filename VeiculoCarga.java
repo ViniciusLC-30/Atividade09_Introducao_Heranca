@@ -1,7 +1,6 @@
 public class VeiculoCarga extends Veiculo {
 
     // Características específicas de veículos de carga
-    private double capacidadeCargaKg;
     private String tipoCarga; // Ex: perecível, não perecível, perigosa, etc.
     private boolean possuiRefrigeracao;
 
