@@ -1,6 +1,6 @@
 public class VeiculoPassageiro extends Veiculo {
   
-   // Características específicas de veículos de passageiros
+    private double capacidadePessoas;
     private int numeroPassageiros;
 
     // Construtor
@@ -10,6 +10,7 @@ public class VeiculoPassageiro extends Veiculo {
               numeroPassageiros, opcionais);
  
         this.numeroPassageiros = numeroPassageiros;
+        this.capacidadePessoas = capacidadePessoas;
     }
 }
 
